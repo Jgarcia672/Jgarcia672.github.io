@@ -1,0 +1,30 @@
+
+body{
+    background-image:url(http://cdn37.picsart.com/133628069001202.gif);
+    background-color: ;
+    color: orange;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.myName{
+   font-family: 'Sacramento', cursive;
+   font-size:100px;
+}
+
+
+.contact{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.headshot{
+    width:20%;
+    border-radius:40%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    display:flex;
+    justify-content: center;
+}
+
