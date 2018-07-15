@@ -1,19 +1,27 @@
 
 body{
     background-image:url(http://cdn37.picsart.com/133628069001202.gif);
-    background-color: pink;
-    color: darkblue;
+    background-color: white;
+    color: orange;
 }
 
 .links{
     display: flex;
     justify-content: space-around; 
     font-family: 'Sacramento', cursive;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding:15px 15px 15px 15px;
+    margin:10px;
+    color: white;
 }
 
 .myName{
    font-family: 'Sacramento', cursive;
    font-size:100px;
+   display:flex;
+   justify-content: center;
+   
 }
 
 .headshot{
@@ -23,7 +31,3 @@ body{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.img{
-    display:flex;
-    justify-content: center;
-}
